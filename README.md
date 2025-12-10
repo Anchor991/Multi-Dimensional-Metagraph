@@ -1,3 +1,5 @@
+# Multi-Dimensional-Metagraph
+
 # Multi-Dimensional Metagraph (3D Hypercube) + QA Evaluation (DeepSeek)
 
 ## 1. Overview
@@ -245,5 +247,3 @@ python qa_dual_db_deepseek.py
   * Under the current setup (baseline `old_graph.json` is derived from `graph.json` without information loss), **MMDB and PGDB return identical answers** for both single-hop and multi-hop questions using the same DeepSeek-generated plan.
   * Single-hop questions generally achieve **high accuracy**.
   * Therefore, accuracy alone is unlikely to differentiate the two backends in this controlled, lossless setting.
-
-# Multi-Dimensional-Metagraph
