@@ -249,7 +249,7 @@ python qa_dual_db_deepseek.py
   * Therefore, accuracy alone is unlikely to differentiate the two backends in this controlled, lossless setting.
 
 
-Update 2025/12/11 14:20
+## Update 2025/12/11 14:20
 
 - Added two Qwen3-based QA evaluation scripts:
   - `qa_dual_db_qwen3.py`: dual-backend single-hop QA (MMDB vs PGDB) driven by Qwen3 via the OpenAI-compatible DashScope API. Uses the mainland-compatible URL (`https://dashscope.aliyuncs.com/compatible-mode/v1`); users need to set their own API key in the environment before running. The script uses non-thinking mode, `temperature=0`, a few-shot JSON-only prompt, and caches LLM plans in `qwen3_cache.json`.
