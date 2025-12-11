@@ -247,3 +247,19 @@ python qa_dual_db_deepseek.py
   * Under the current setup (baseline `old_graph.json` is derived from `graph.json` without information loss), **MMDB and PGDB return identical answers** for both single-hop and multi-hop questions using the same DeepSeek-generated plan.
   * Single-hop questions generally achieve **high accuracy**.
   * Therefore, accuracy alone is unlikely to differentiate the two backends in this controlled, lossless setting.
+
+
+Update 2025/12/11 14:20
+
+- Added two Qwen3-based QA evaluation scripts:
+  - `qa_dual_db_qwen3.py`: dual-backend single-hop QA (MMDB vs PGDB) driven by Qwen3 via the OpenAI-compatible DashScope API. Uses the mainland-compatible URL (`https://dashscope.aliyuncs.com/compatible-mode/v1`); users need to set their own API key in the environment before running. The script uses non-thinking mode, `temperature=0`, a few-shot JSON-only prompt, and caches LLM plans in `qwen3_cache.json`.
+  - `qa_dual_db_qwen3_multihop.py`: multi-hop QA (compositional queries) where Qwen3 outputs a multi-step query plan (`sub_queries`) combined by intersection. Uses the same domestic DashScope URL and environment-configured API key.
+
+- Prompting / model updates:
+  - Re-designed the system prompt with explicit JSON schema and several few-shot examples tailored to the 3-axis (person/year/city) graph.
+  - Switched the planner to Qwen3 (non-thinking, `T=0`), which yields very stable query JSONs.
+  - Under the current lossless setup (`old_graph.json` derived from `graph.json`), both MMDB and PGDB achieve 100% accuracy on the single-hop benchmark; initial multi-hop experiments also show matching answers between the two backends.
+
+- Current reflection:
+  - Since the old graph is constructed from the new 3D cube without information loss, the two backends may be functionally equivalent for the current workloads.
+  - I am considering whether the two database designs are fundamentally different in terms of expressiveness or only in terms of representation / implementation, and what kinds of queries or data distributions could expose substantive differences.
