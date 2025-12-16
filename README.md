@@ -263,3 +263,21 @@ python qa_dual_db_deepseek.py
 - Current reflection:
   - Since the old graph is constructed from the new 3D cube without information loss, the two backends may be functionally equivalent for the current workloads.
   - I am considering whether the two database designs are fundamentally different in terms of expressiveness or only in terms of representation / implementation, and what kinds of queries or data distributions could expose substantive differences.
+ 
+## Update 2025/12/16 15:50
+
+Added a new folder 3AXIS_SIMPLIFIED/ to provide a cleaned and unified experimental pipeline for the simplified 3-axis metagraph setting.
+
+The folder includes:
+
+FF link generation: add_ff_links_by_person_time_geo.py
+
+Baseline PGDB projection: build_olddb_from_graph_with_ff_links.py → old_graph_from_ff_links.json
+
+Frozen QA dataset builder: build_fflinks_questions_gold.py → mixed_questions_gold.json
+
+Mixed QA evaluation (accuracy): qa_dual_db_qwen3_mixed.py
+
+Updated visualization scripts and example outputs (visualize_*.py, *.png)
+
+Rationale: move from “equivalent triple-only queries” to a mixed benchmark that includes both standard 1-hop queries and FF-structure-sensitive queries, making it possible to compare MMDB vs. PGDB more meaningfully.
