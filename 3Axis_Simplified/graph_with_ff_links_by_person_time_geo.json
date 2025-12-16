@@ -1,0 +1,533 @@
+{
+  "dimensions": {
+    "person": [
+      {
+        "id": "P_0001",
+        "name": "小明"
+      },
+      {
+        "id": "P_0002",
+        "name": "小红"
+      },
+      {
+        "id": "P_0003",
+        "name": "小李"
+      },
+      {
+        "id": "P_0004",
+        "name": "小王"
+      },
+      {
+        "id": "P_0005",
+        "name": "小张"
+      }
+    ],
+    "time": [
+      {
+        "id": "T_0001",
+        "value": "2020"
+      },
+      {
+        "id": "T_0002",
+        "value": "2021"
+      },
+      {
+        "id": "T_0003",
+        "value": "2023"
+      },
+      {
+        "id": "T_0004",
+        "value": "2022"
+      }
+    ],
+    "geo": [
+      {
+        "id": "G_0001",
+        "name": "北京"
+      },
+      {
+        "id": "G_0002",
+        "name": "上海"
+      },
+      {
+        "id": "G_0003",
+        "name": "深圳"
+      },
+      {
+        "id": "G_0004",
+        "name": "武汉"
+      },
+      {
+        "id": "G_0005",
+        "name": "成都"
+      },
+      {
+        "id": "G_0006",
+        "name": "西安"
+      },
+      {
+        "id": "G_0007",
+        "name": "广州"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "id": "F_0001",
+      "person": "P_0001",
+      "time": "T_0001",
+      "geo": "G_0001",
+      "text": "小明在2020年去了北京。"
+    },
+    {
+      "id": "F_0002",
+      "person": "P_0001",
+      "time": "T_0002",
+      "geo": "G_0002",
+      "text": "小明在2021年去了上海。"
+    },
+    {
+      "id": "F_0003",
+      "person": "P_0001",
+      "time": "T_0003",
+      "geo": "G_0001",
+      "text": "小明在2023年又去了北京。"
+    },
+    {
+      "id": "F_0004",
+      "person": "P_0002",
+      "time": "T_0001",
+      "geo": "G_0002",
+      "text": "小红在2020年去了上海。"
+    },
+    {
+      "id": "F_0005",
+      "person": "P_0002",
+      "time": "T_0002",
+      "geo": "G_0003",
+      "text": "小红在2021年去了深圳。"
+    },
+    {
+      "id": "F_0006",
+      "person": "P_0003",
+      "time": "T_0001",
+      "geo": "G_0004",
+      "text": "小李在2020年去了武汉。"
+    },
+    {
+      "id": "F_0007",
+      "person": "P_0003",
+      "time": "T_0002",
+      "geo": "G_0001",
+      "text": "小李在2021年去了北京。"
+    },
+    {
+      "id": "F_0008",
+      "person": "P_0004",
+      "time": "T_0001",
+      "geo": "G_0005",
+      "text": "小王在2020年去了成都。"
+    },
+    {
+      "id": "F_0009",
+      "person": "P_0004",
+      "time": "T_0002",
+      "geo": "G_0006",
+      "text": "小王在2021年去了西安。"
+    },
+    {
+      "id": "F_0010",
+      "person": "P_0005",
+      "time": "T_0002",
+      "geo": "G_0007",
+      "text": "小张在2021年去了广州。"
+    },
+    {
+      "id": "F_0011",
+      "person": "P_0005",
+      "time": "T_0004",
+      "geo": "G_0001",
+      "text": "小张在2022年去了北京。"
+    }
+  ],
+  "graph": {
+    "nodes": [
+      {
+        "id": "P_0001",
+        "type": "Person",
+        "label": "小明"
+      },
+      {
+        "id": "T_0001",
+        "type": "Time",
+        "label": "2020"
+      },
+      {
+        "id": "G_0001",
+        "type": "Geo",
+        "label": "北京"
+      },
+      {
+        "id": "F_0001",
+        "type": "Fact"
+      },
+      {
+        "id": "T_0002",
+        "type": "Time",
+        "label": "2021"
+      },
+      {
+        "id": "G_0002",
+        "type": "Geo",
+        "label": "上海"
+      },
+      {
+        "id": "F_0002",
+        "type": "Fact"
+      },
+      {
+        "id": "T_0003",
+        "type": "Time",
+        "label": "2023"
+      },
+      {
+        "id": "F_0003",
+        "type": "Fact"
+      },
+      {
+        "id": "P_0002",
+        "type": "Person",
+        "label": "小红"
+      },
+      {
+        "id": "F_0004",
+        "type": "Fact"
+      },
+      {
+        "id": "G_0003",
+        "type": "Geo",
+        "label": "深圳"
+      },
+      {
+        "id": "F_0005",
+        "type": "Fact"
+      },
+      {
+        "id": "P_0003",
+        "type": "Person",
+        "label": "小李"
+      },
+      {
+        "id": "G_0004",
+        "type": "Geo",
+        "label": "武汉"
+      },
+      {
+        "id": "F_0006",
+        "type": "Fact"
+      },
+      {
+        "id": "F_0007",
+        "type": "Fact"
+      },
+      {
+        "id": "P_0004",
+        "type": "Person",
+        "label": "小王"
+      },
+      {
+        "id": "G_0005",
+        "type": "Geo",
+        "label": "成都"
+      },
+      {
+        "id": "F_0008",
+        "type": "Fact"
+      },
+      {
+        "id": "G_0006",
+        "type": "Geo",
+        "label": "西安"
+      },
+      {
+        "id": "F_0009",
+        "type": "Fact"
+      },
+      {
+        "id": "P_0005",
+        "type": "Person",
+        "label": "小张"
+      },
+      {
+        "id": "G_0007",
+        "type": "Geo",
+        "label": "广州"
+      },
+      {
+        "id": "F_0010",
+        "type": "Fact"
+      },
+      {
+        "id": "T_0004",
+        "type": "Time",
+        "label": "2022"
+      },
+      {
+        "id": "F_0011",
+        "type": "Fact"
+      }
+    ],
+    "edges": [
+      {
+        "from": "F_0001",
+        "to": "P_0001",
+        "label": "has_person"
+      },
+      {
+        "from": "F_0001",
+        "to": "T_0001",
+        "label": "has_time"
+      },
+      {
+        "from": "F_0001",
+        "to": "G_0001",
+        "label": "has_geo"
+      },
+      {
+        "from": "F_0002",
+        "to": "P_0001",
+        "label": "has_person"
+      },
+      {
+        "from": "F_0002",
+        "to": "T_0002",
+        "label": "has_time"
+      },
+      {
+        "from": "F_0002",
+        "to": "G_0002",
+        "label": "has_geo"
+      },
+      {
+        "from": "F_0003",
+        "to": "P_0001",
+        "label": "has_person"
+      },
+      {
+        "from": "F_0003",
+        "to": "T_0003",
+        "label": "has_time"
+      },
+      {
+        "from": "F_0003",
+        "to": "G_0001",
+        "label": "has_geo"
+      },
+      {
+        "from": "F_0004",
+        "to": "P_0002",
+        "label": "has_person"
+      },
+      {
+        "from": "F_0004",
+        "to": "T_0001",
+        "label": "has_time"
+      },
+      {
+        "from": "F_0004",
+        "to": "G_0002",
+        "label": "has_geo"
+      },
+      {
+        "from": "F_0005",
+        "to": "P_0002",
+        "label": "has_person"
+      },
+      {
+        "from": "F_0005",
+        "to": "T_0002",
+        "label": "has_time"
+      },
+      {
+        "from": "F_0005",
+        "to": "G_0003",
+        "label": "has_geo"
+      },
+      {
+        "from": "F_0006",
+        "to": "P_0003",
+        "label": "has_person"
+      },
+      {
+        "from": "F_0006",
+        "to": "T_0001",
+        "label": "has_time"
+      },
+      {
+        "from": "F_0006",
+        "to": "G_0004",
+        "label": "has_geo"
+      },
+      {
+        "from": "F_0007",
+        "to": "P_0003",
+        "label": "has_person"
+      },
+      {
+        "from": "F_0007",
+        "to": "T_0002",
+        "label": "has_time"
+      },
+      {
+        "from": "F_0007",
+        "to": "G_0001",
+        "label": "has_geo"
+      },
+      {
+        "from": "F_0008",
+        "to": "P_0004",
+        "label": "has_person"
+      },
+      {
+        "from": "F_0008",
+        "to": "T_0001",
+        "label": "has_time"
+      },
+      {
+        "from": "F_0008",
+        "to": "G_0005",
+        "label": "has_geo"
+      },
+      {
+        "from": "F_0009",
+        "to": "P_0004",
+        "label": "has_person"
+      },
+      {
+        "from": "F_0009",
+        "to": "T_0002",
+        "label": "has_time"
+      },
+      {
+        "from": "F_0009",
+        "to": "G_0006",
+        "label": "has_geo"
+      },
+      {
+        "from": "F_0010",
+        "to": "P_0005",
+        "label": "has_person"
+      },
+      {
+        "from": "F_0010",
+        "to": "T_0002",
+        "label": "has_time"
+      },
+      {
+        "from": "F_0010",
+        "to": "G_0007",
+        "label": "has_geo"
+      },
+      {
+        "from": "F_0011",
+        "to": "P_0005",
+        "label": "has_person"
+      },
+      {
+        "from": "F_0011",
+        "to": "T_0004",
+        "label": "has_time"
+      },
+      {
+        "from": "F_0011",
+        "to": "G_0001",
+        "label": "has_geo"
+      },
+      {
+        "from": "F_0001",
+        "to": "F_0002",
+        "label": "FF_PERSON_NEXT"
+      },
+      {
+        "from": "F_0002",
+        "to": "F_0003",
+        "label": "FF_PERSON_NEXT"
+      },
+      {
+        "from": "F_0004",
+        "to": "F_0005",
+        "label": "FF_PERSON_NEXT"
+      },
+      {
+        "from": "F_0006",
+        "to": "F_0007",
+        "label": "FF_PERSON_NEXT"
+      },
+      {
+        "from": "F_0008",
+        "to": "F_0009",
+        "label": "FF_PERSON_NEXT"
+      },
+      {
+        "from": "F_0010",
+        "to": "F_0011",
+        "label": "FF_PERSON_NEXT"
+      },
+      {
+        "from": "F_0004",
+        "to": "F_0001",
+        "label": "FF_TIME_NEXT"
+      },
+      {
+        "from": "F_0001",
+        "to": "F_0008",
+        "label": "FF_TIME_NEXT"
+      },
+      {
+        "from": "F_0008",
+        "to": "F_0006",
+        "label": "FF_TIME_NEXT"
+      },
+      {
+        "from": "F_0002",
+        "to": "F_0007",
+        "label": "FF_TIME_NEXT"
+      },
+      {
+        "from": "F_0007",
+        "to": "F_0010",
+        "label": "FF_TIME_NEXT"
+      },
+      {
+        "from": "F_0010",
+        "to": "F_0005",
+        "label": "FF_TIME_NEXT"
+      },
+      {
+        "from": "F_0005",
+        "to": "F_0009",
+        "label": "FF_TIME_NEXT"
+      },
+      {
+        "from": "F_0001",
+        "to": "F_0007",
+        "label": "FF_GEO_NEXT"
+      },
+      {
+        "from": "F_0007",
+        "to": "F_0011",
+        "label": "FF_GEO_NEXT"
+      },
+      {
+        "from": "F_0011",
+        "to": "F_0003",
+        "label": "FF_GEO_NEXT"
+      },
+      {
+        "from": "F_0004",
+        "to": "F_0002",
+        "label": "FF_GEO_NEXT"
+      }
+    ]
+  }
+}

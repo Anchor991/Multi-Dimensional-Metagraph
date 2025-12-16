@@ -1,0 +1,240 @@
+{
+  "qwen3-fflinks-v2||qwen3-8b||按人物链：小李在2020年去武汉之后，下一次去了哪个城市？": {
+    "query": {
+      "op": "ff_next",
+      "ff_type": "person",
+      "from": {
+        "person": "小李",
+        "year": "2020",
+        "geo": "武汉"
+      },
+      "return": "geo",
+      "hops": 1
+    },
+    "raw": "{\"op\": \"ff_next\", \"ff_type\": \"person\", \"from\": {\"person\": \"小李\", \"year\": \"2020\", \"geo\": \"武汉\"}, \"return\": \"geo\", \"hops\": 1}"
+  },
+  "qwen3-fflinks-v2||qwen3-8b||按时间链：小明在2021年去上海之后，下一次去了哪个城市？": {
+    "query": {
+      "op": "ff_next",
+      "ff_type": "time",
+      "from": {
+        "person": "小明",
+        "year": "2021",
+        "geo": "上海"
+      },
+      "return": "geo",
+      "hops": 1
+    },
+    "raw": "{\"op\": \"ff_next\", \"ff_type\": \"time\", \"from\": {\"person\": \"小明\", \"year\": \"2021\", \"geo\": \"上海\"}, \"return\": \"geo\", \"hops\": 1}"
+  },
+  "qwen3-fflinks-v2||qwen3-8b||按地点链：小明在2020年去北京之后，下一次事件发生在哪一年？": {
+    "query": {
+      "op": "ff_next",
+      "ff_type": "geo",
+      "from": {
+        "person": "小明",
+        "year": "2020",
+        "geo": "北京"
+      },
+      "return": "year",
+      "hops": 1
+    },
+    "raw": "{\"op\": \"ff_next\", \"ff_type\": \"geo\", \"from\": {\"person\": \"小明\", \"year\": \"2020\", \"geo\": \"北京\"}, \"return\": \"year\", \"hops\": 1}"
+  },
+  "qwen3-fflinks-v2||qwen3-8b||按人物链：小明在2020年去北京之后，下一次去了哪个城市？": {
+    "query": {
+      "op": "ff_next",
+      "ff_type": "person",
+      "from": {
+        "person": "小明",
+        "year": "2020",
+        "geo": "北京"
+      },
+      "return": "geo",
+      "hops": 1
+    },
+    "raw": "{\"op\": \"ff_next\", \"ff_type\": \"person\", \"from\": {\"person\": \"小明\", \"year\": \"2020\", \"geo\": \"北京\"}, \"return\": \"geo\", \"hops\": 1}"
+  },
+  "qwen3-fflinks-v2||qwen3-8b||按时间链：小王在2020年去成都之后，下一次事件对应的人是谁？": {
+    "query": {
+      "op": "ff_next",
+      "ff_type": "time",
+      "from": {
+        "person": "小王",
+        "year": "2020",
+        "geo": "成都"
+      },
+      "return": "person",
+      "hops": 1
+    },
+    "raw": "{\"op\": \"ff_next\", \"ff_type\": \"time\", \"from\": {\"person\": \"小王\", \"year\": \"2020\", \"geo\": \"成都\"}, \"return\": \"person\", \"hops\": 1}"
+  },
+  "qwen3-fflinks-v2||qwen3-8b||按地点链：小红在2020年去上海之后，下一次去了哪个城市？": {
+    "query": {
+      "op": "ff_next",
+      "ff_type": "person",
+      "from": {
+        "person": "小红",
+        "year": "2020",
+        "geo": "上海"
+      },
+      "return": "geo",
+      "hops": 1
+    },
+    "raw": "{\"op\": \"ff_next\", \"ff_type\": \"person\", \"from\": {\"person\": \"小红\", \"year\": \"2020\", \"geo\": \"上海\"}, \"return\": \"geo\", \"hops\": 1}"
+  },
+  "qwen3-fflinks-v2||qwen3-8b||按人物链：小王在2020年去成都之后，下一次去了哪个城市？": {
+    "query": {
+      "op": "ff_next",
+      "ff_type": "person",
+      "from": {
+        "person": "小王",
+        "year": "2020",
+        "geo": "成都"
+      },
+      "return": "geo",
+      "hops": 1
+    },
+    "raw": "{\"op\": \"ff_next\", \"ff_type\": \"person\", \"from\": {\"person\": \"小王\", \"year\": \"2020\", \"geo\": \"成都\"}, \"return\": \"geo\", \"hops\": 1}"
+  },
+  "qwen3-fflinks-v2||qwen3-8b||按时间链：小红在2020年去上海之后，下一次事件发生在哪一年？": {
+    "query": {
+      "op": "ff_next",
+      "ff_type": "time",
+      "from": {
+        "person": "小红",
+        "year": "2020",
+        "geo": "上海"
+      },
+      "return": "year",
+      "hops": 1
+    },
+    "raw": "{\"op\": \"ff_next\", \"ff_type\": \"time\", \"from\": {\"person\": \"小红\", \"year\": \"2020\", \"geo\": \"上海\"}, \"return\": \"year\", \"hops\": 1}"
+  },
+  "qwen3-fflinks-v2||qwen3-8b||按地点链：小张在2022年去北京之后，下一次去了哪个城市？": {
+    "query": {
+      "op": "ff_next",
+      "ff_type": "person",
+      "from": {
+        "person": "小张",
+        "year": "2022",
+        "geo": "北京"
+      },
+      "return": "geo",
+      "hops": 1
+    },
+    "raw": "{\"op\": \"ff_next\", \"ff_type\": \"person\", \"from\": {\"person\": \"小张\", \"year\": \"2022\", \"geo\": \"北京\"}, \"return\": \"geo\", \"hops\": 1}"
+  },
+  "qwen3-fflinks-v2||qwen3-8b||按人物链：小明在2021年去上海之后，下一次事件对应的人是谁？": {
+    "query": {
+      "op": "ff_next",
+      "ff_type": "person",
+      "from": {
+        "person": "小明",
+        "year": "2021",
+        "geo": "上海"
+      },
+      "return": "person",
+      "hops": 1
+    },
+    "raw": "{\"op\": \"ff_next\", \"ff_type\": \"person\", \"from\": {\"person\": \"小明\", \"year\": \"2021\", \"geo\": \"上海\"}, \"return\": \"person\", \"hops\": 1}"
+  },
+  "qwen3-fflinks-v2||qwen3-8b||按时间链：小李在2021年去北京之后，下一次去了哪个城市？": {
+    "query": {
+      "op": "ff_next",
+      "ff_type": "time",
+      "from": {
+        "person": "小李",
+        "year": "2021",
+        "geo": "北京"
+      },
+      "return": "geo",
+      "hops": 1
+    },
+    "raw": "{\"op\": \"ff_next\", \"ff_type\": \"time\", \"from\": {\"person\": \"小李\", \"year\": \"2021\", \"geo\": \"北京\"}, \"return\": \"geo\", \"hops\": 1}"
+  },
+  "qwen3-fflinks-v2||qwen3-8b||按地点链：小李在2021年去北京之后，下一次去了哪个城市？": {
+    "query": {
+      "op": "ff_next",
+      "ff_type": "person",
+      "from": {
+        "person": "小李",
+        "year": "2021",
+        "geo": "北京"
+      },
+      "return": "geo",
+      "hops": 1
+    },
+    "raw": "{\"op\": \"ff_next\", \"ff_type\": \"person\", \"from\": {\"person\": \"小李\", \"year\": \"2021\", \"geo\": \"北京\"}, \"return\": \"geo\", \"hops\": 1}"
+  },
+  "qwen3-fflinks-v2||qwen3-8b||按人物链：小张在2021年去广州之后，下一次事件发生在哪一年？": {
+    "query": {
+      "op": "ff_next",
+      "ff_type": "person",
+      "from": {
+        "person": "小张",
+        "year": "2021",
+        "geo": "广州"
+      },
+      "return": "year",
+      "hops": 1
+    },
+    "raw": "{\"op\": \"ff_next\", \"ff_type\": \"person\", \"from\": {\"person\": \"小张\", \"year\": \"2021\", \"geo\": \"广州\"}, \"return\": \"year\", \"hops\": 1}"
+  },
+  "qwen3-fflinks-v2||qwen3-8b||按时间链：小红在2021年去深圳之后，下一次去了哪个城市？": {
+    "query": {
+      "op": "ff_next",
+      "ff_type": "time",
+      "from": {
+        "person": "小红",
+        "year": "2021",
+        "geo": "深圳"
+      },
+      "return": "geo",
+      "hops": 1
+    },
+    "raw": "{\"op\": \"ff_next\", \"ff_type\": \"time\", \"from\": {\"person\": \"小红\", \"year\": \"2021\", \"geo\": \"深圳\"}, \"return\": \"geo\", \"hops\": 1}"
+  },
+  "qwen3-fflinks-v2||qwen3-8b||按人物链：小红在2020年去上海之后，下一次事件对应的人是谁？": {
+    "query": {
+      "op": "ff_next",
+      "ff_type": "person",
+      "from": {
+        "person": "小红",
+        "year": "2020",
+        "geo": "上海"
+      },
+      "return": "person",
+      "hops": 1
+    },
+    "raw": "{\"op\": \"ff_next\", \"ff_type\": \"person\", \"from\": {\"person\": \"小红\", \"year\": \"2020\", \"geo\": \"上海\"}, \"return\": \"person\", \"hops\": 1}"
+  },
+  "qwen3-fflinks-v2||qwen3-8b||按时间链：小明在2020年去北京之后，下一次去了哪个城市？": {
+    "query": {
+      "op": "ff_next",
+      "ff_type": "time",
+      "from": {
+        "person": "小明",
+        "year": "2020",
+        "geo": "北京"
+      },
+      "return": "geo",
+      "hops": 1
+    },
+    "raw": "{\"op\": \"ff_next\", \"ff_type\": \"time\", \"from\": {\"person\": \"小明\", \"year\": \"2020\", \"geo\": \"北京\"}, \"return\": \"geo\", \"hops\": 1}"
+  },
+  "qwen3-fflinks-v2||qwen3-8b||按时间链：小张在2021年去广州之后，下一次去了哪个城市？": {
+    "query": {
+      "op": "ff_next",
+      "ff_type": "time",
+      "from": {
+        "person": "小张",
+        "year": "2021",
+        "geo": "广州"
+      },
+      "return": "geo",
+      "hops": 1
+    },
+    "raw": "{\"op\": \"ff_next\", \"ff_type\": \"time\", \"from\": {\"person\": \"小张\", \"year\": \"2021\", \"geo\": \"广州\"}, \"return\": \"geo\", \"hops\": 1}"
+  }
+}

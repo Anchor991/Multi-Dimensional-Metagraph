@@ -1,0 +1,364 @@
+[
+  {
+    "qid": "N017",
+    "question": "小明在2020年去了哪些城市？",
+    "gold_answer": [
+      "北京"
+    ],
+    "meta": {
+      "type": "normal",
+      "op": "cities_by_person_year",
+      "person": "小明",
+      "year": "2020"
+    }
+  },
+  {
+    "qid": "N008",
+    "question": "小李在2020年去了哪些城市？",
+    "gold_answer": [
+      "武汉"
+    ],
+    "meta": {
+      "type": "normal",
+      "op": "cities_by_person_year",
+      "person": "小李",
+      "year": "2020"
+    }
+  },
+  {
+    "qid": "N016",
+    "question": "小红在2021年去了哪些城市？",
+    "gold_answer": [
+      "深圳"
+    ],
+    "meta": {
+      "type": "normal",
+      "op": "cities_by_person_year",
+      "person": "小红",
+      "year": "2021"
+    }
+  },
+  {
+    "qid": "N007",
+    "question": "小明在2021年去了哪些城市？",
+    "gold_answer": [
+      "上海"
+    ],
+    "meta": {
+      "type": "normal",
+      "op": "cities_by_person_year",
+      "person": "小明",
+      "year": "2021"
+    }
+  },
+  {
+    "qid": "N005",
+    "question": "2021年去过广州的是哪些人？",
+    "gold_answer": [
+      "小张"
+    ],
+    "meta": {
+      "type": "normal",
+      "op": "persons_by_city_year",
+      "geo": "广州",
+      "year": "2021"
+    }
+  },
+  {
+    "qid": "FF004",
+    "question": "按时间链：小王在2020年去成都之后，下一次去了哪个城市？",
+    "gold_answer": [
+      "武汉"
+    ],
+    "meta": {
+      "type": "ff",
+      "op": "ff_next",
+      "ff_type": "time",
+      "from": {
+        "person": "小王",
+        "year": "2020",
+        "geo": "成都"
+      },
+      "return": "geo",
+      "hops": 1
+    }
+  },
+  {
+    "qid": "N001",
+    "question": "2020年去过上海的是哪些人？",
+    "gold_answer": [
+      "小红"
+    ],
+    "meta": {
+      "type": "normal",
+      "op": "persons_by_city_year",
+      "geo": "上海",
+      "year": "2020"
+    }
+  },
+  {
+    "qid": "N014",
+    "question": "小张在2022年去了哪些城市？",
+    "gold_answer": [
+      "北京"
+    ],
+    "meta": {
+      "type": "normal",
+      "op": "cities_by_person_year",
+      "person": "小张",
+      "year": "2022"
+    }
+  },
+  {
+    "qid": "N015",
+    "question": "小王在2021年去了哪些城市？",
+    "gold_answer": [
+      "西安"
+    ],
+    "meta": {
+      "type": "normal",
+      "op": "cities_by_person_year",
+      "person": "小王",
+      "year": "2021"
+    }
+  },
+  {
+    "qid": "N021",
+    "question": "2022年去过北京的是哪些人？",
+    "gold_answer": [
+      "小张"
+    ],
+    "meta": {
+      "type": "normal",
+      "op": "persons_by_city_year",
+      "geo": "北京",
+      "year": "2022"
+    }
+  },
+  {
+    "qid": "N009",
+    "question": "2021年去过深圳的是哪些人？",
+    "gold_answer": [
+      "小红"
+    ],
+    "meta": {
+      "type": "normal",
+      "op": "persons_by_city_year",
+      "geo": "深圳",
+      "year": "2021"
+    }
+  },
+  {
+    "qid": "N018",
+    "question": "小李在2021年去了哪些城市？",
+    "gold_answer": [
+      "北京"
+    ],
+    "meta": {
+      "type": "normal",
+      "op": "cities_by_person_year",
+      "person": "小李",
+      "year": "2021"
+    }
+  },
+  {
+    "qid": "N013",
+    "question": "小王在2020年去了哪些城市？",
+    "gold_answer": [
+      "成都"
+    ],
+    "meta": {
+      "type": "normal",
+      "op": "cities_by_person_year",
+      "person": "小王",
+      "year": "2020"
+    }
+  },
+  {
+    "qid": "N003",
+    "question": "2021年去过西安的是哪些人？",
+    "gold_answer": [
+      "小王"
+    ],
+    "meta": {
+      "type": "normal",
+      "op": "persons_by_city_year",
+      "geo": "西安",
+      "year": "2021"
+    }
+  },
+  {
+    "qid": "N004",
+    "question": "小明在2023年去了哪些城市？",
+    "gold_answer": [
+      "北京"
+    ],
+    "meta": {
+      "type": "normal",
+      "op": "cities_by_person_year",
+      "person": "小明",
+      "year": "2023"
+    }
+  },
+  {
+    "qid": "N010",
+    "question": "2020年去过成都的是哪些人？",
+    "gold_answer": [
+      "小王"
+    ],
+    "meta": {
+      "type": "normal",
+      "op": "persons_by_city_year",
+      "geo": "成都",
+      "year": "2020"
+    }
+  },
+  {
+    "qid": "N006",
+    "question": "2020年去过武汉的是哪些人？",
+    "gold_answer": [
+      "小李"
+    ],
+    "meta": {
+      "type": "normal",
+      "op": "persons_by_city_year",
+      "geo": "武汉",
+      "year": "2020"
+    }
+  },
+  {
+    "qid": "N011",
+    "question": "小红在2020年去了哪些城市？",
+    "gold_answer": [
+      "上海"
+    ],
+    "meta": {
+      "type": "normal",
+      "op": "cities_by_person_year",
+      "person": "小红",
+      "year": "2020"
+    }
+  },
+  {
+    "qid": "N022",
+    "question": "2020年去过北京的是哪些人？",
+    "gold_answer": [
+      "小明"
+    ],
+    "meta": {
+      "type": "normal",
+      "op": "persons_by_city_year",
+      "geo": "北京",
+      "year": "2020"
+    }
+  },
+  {
+    "qid": "N012",
+    "question": "2021年去过北京的是哪些人？",
+    "gold_answer": [
+      "小李"
+    ],
+    "meta": {
+      "type": "normal",
+      "op": "persons_by_city_year",
+      "geo": "北京",
+      "year": "2021"
+    }
+  },
+  {
+    "qid": "FF003",
+    "question": "按人物链：小王在2020年去成都之后，下一次事件发生在哪一年？",
+    "gold_answer": [
+      "2021"
+    ],
+    "meta": {
+      "type": "ff",
+      "op": "ff_next",
+      "ff_type": "person",
+      "from": {
+        "person": "小王",
+        "year": "2020",
+        "geo": "成都"
+      },
+      "return": "year",
+      "hops": 1
+    }
+  },
+  {
+    "qid": "FF002",
+    "question": "按时间链：小红在2021年去深圳之后，下一次去了哪个城市？",
+    "gold_answer": [
+      "西安"
+    ],
+    "meta": {
+      "type": "ff",
+      "op": "ff_next",
+      "ff_type": "time",
+      "from": {
+        "person": "小红",
+        "year": "2021",
+        "geo": "深圳"
+      },
+      "return": "geo",
+      "hops": 1
+    }
+  },
+  {
+    "qid": "FF001",
+    "question": "按时间链：小李在2021年去北京之后，下一次去了哪个城市？",
+    "gold_answer": [
+      "广州"
+    ],
+    "meta": {
+      "type": "ff",
+      "op": "ff_next",
+      "ff_type": "time",
+      "from": {
+        "person": "小李",
+        "year": "2021",
+        "geo": "北京"
+      },
+      "return": "geo",
+      "hops": 1
+    }
+  },
+  {
+    "qid": "N019",
+    "question": "小张在2021年去了哪些城市？",
+    "gold_answer": [
+      "广州"
+    ],
+    "meta": {
+      "type": "normal",
+      "op": "cities_by_person_year",
+      "person": "小张",
+      "year": "2021"
+    }
+  },
+  {
+    "qid": "N002",
+    "question": "2021年去过上海的是哪些人？",
+    "gold_answer": [
+      "小明"
+    ],
+    "meta": {
+      "type": "normal",
+      "op": "persons_by_city_year",
+      "geo": "上海",
+      "year": "2021"
+    }
+  },
+  {
+    "qid": "N020",
+    "question": "2023年去过北京的是哪些人？",
+    "gold_answer": [
+      "小明"
+    ],
+    "meta": {
+      "type": "normal",
+      "op": "persons_by_city_year",
+      "geo": "北京",
+      "year": "2023"
+    }
+  }
+]

@@ -1,0 +1,234 @@
+{
+  "qwen3-mixed-v1||qwen3-8b||小明在2020年去了哪些城市？": {
+    "query": {
+      "op": "cities_by_person_year",
+      "person_name": "小明",
+      "year": "2020"
+    },
+    "raw": "{\"op\": \"cities_by_person_year\", \"person_name\": \"小明\", \"year\": \"2020\"}"
+  },
+  "qwen3-mixed-v1||qwen3-8b||小李在2020年去了哪些城市？": {
+    "query": {
+      "op": "cities_by_person_year",
+      "person_name": "小李",
+      "year": "2020"
+    },
+    "raw": "{\"op\": \"cities_by_person_year\", \"person_name\": \"小李\", \"year\": \"2020\"}"
+  },
+  "qwen3-mixed-v1||qwen3-8b||小红在2021年去了哪些城市？": {
+    "query": {
+      "op": "cities_by_person_year",
+      "person_name": "小红",
+      "year": "2021"
+    },
+    "raw": "{\"op\": \"cities_by_person_year\", \"person_name\": \"小红\", \"year\": \"2021\"}"
+  },
+  "qwen3-mixed-v1||qwen3-8b||小明在2021年去了哪些城市？": {
+    "query": {
+      "op": "cities_by_person_year",
+      "person_name": "小明",
+      "year": "2021"
+    },
+    "raw": "{\"op\": \"cities_by_person_year\", \"person_name\": \"小明\", \"year\": \"2021\"}"
+  },
+  "qwen3-mixed-v1||qwen3-8b||2021年去过广州的是哪些人？": {
+    "query": {
+      "op": "persons_by_city_year",
+      "city_name": "广州",
+      "year": "2021"
+    },
+    "raw": "{\"op\": \"persons_by_city_year\", \"city_name\": \"广州\", \"year\": \"2021\"}"
+  },
+  "qwen3-mixed-v1||qwen3-8b||按时间链：小王在2020年去成都之后，下一次去了哪个城市？": {
+    "query": {
+      "op": "ff_next",
+      "ff_type": "time",
+      "from": {
+        "person": "小王",
+        "year": "2020",
+        "geo": "成都"
+      },
+      "return": "geo",
+      "hops": 1
+    },
+    "raw": "{\"op\": \"ff_next\", \"ff_type\": \"time\", \"from\": {\"person\": \"小王\", \"year\": \"2020\", \"geo\": \"成都\"}, \"return\": \"geo\", \"hops\": 1}"
+  },
+  "qwen3-mixed-v1||qwen3-8b||2020年去过上海的是哪些人？": {
+    "query": {
+      "op": "persons_by_city_year",
+      "city_name": "上海",
+      "year": "2020"
+    },
+    "raw": "{\"op\": \"persons_by_city_year\", \"city_name\": \"上海\", \"year\": \"2020\"}"
+  },
+  "qwen3-mixed-v1||qwen3-8b||小张在2022年去了哪些城市？": {
+    "query": {
+      "op": "cities_by_person_year",
+      "person_name": "小张",
+      "year": "2022"
+    },
+    "raw": "{\"op\": \"cities_by_person_year\", \"person_name\": \"小张\", \"year\": \"2022\"}"
+  },
+  "qwen3-mixed-v1||qwen3-8b||小王在2021年去了哪些城市？": {
+    "query": {
+      "op": "cities_by_person_year",
+      "person_name": "小王",
+      "year": "2021"
+    },
+    "raw": "{\"op\": \"cities_by_person_year\", \"person_name\": \"小王\", \"year\": \"2021\"}"
+  },
+  "qwen3-mixed-v1||qwen3-8b||2022年去过北京的是哪些人？": {
+    "query": {
+      "op": "persons_by_city_year",
+      "city_name": "北京",
+      "year": "2022"
+    },
+    "raw": "{\"op\": \"persons_by_city_year\", \"city_name\": \"北京\", \"year\": \"2022\"}"
+  },
+  "qwen3-mixed-v1||qwen3-8b||2021年去过深圳的是哪些人？": {
+    "query": {
+      "op": "persons_by_city_year",
+      "city_name": "深圳",
+      "year": "2021"
+    },
+    "raw": "{\"op\": \"persons_by_city_year\", \"city_name\": \"深圳\", \"year\": \"2021\"}"
+  },
+  "qwen3-mixed-v1||qwen3-8b||小李在2021年去了哪些城市？": {
+    "query": {
+      "op": "cities_by_person_year",
+      "person_name": "小李",
+      "year": "2021"
+    },
+    "raw": "{\"op\": \"cities_by_person_year\", \"person_name\": \"小李\", \"year\": \"2021\"}"
+  },
+  "qwen3-mixed-v1||qwen3-8b||小王在2020年去了哪些城市？": {
+    "query": {
+      "op": "cities_by_person_year",
+      "person_name": "小王",
+      "year": "2020"
+    },
+    "raw": "{\"op\": \"cities_by_person_year\", \"person_name\": \"小王\", \"year\": \"2020\"}"
+  },
+  "qwen3-mixed-v1||qwen3-8b||2021年去过西安的是哪些人？": {
+    "query": {
+      "op": "persons_by_city_year",
+      "city_name": "西安",
+      "year": "2021"
+    },
+    "raw": "{\"op\": \"persons_by_city_year\", \"city_name\": \"西安\", \"year\": \"2021\"}"
+  },
+  "qwen3-mixed-v1||qwen3-8b||小明在2023年去了哪些城市？": {
+    "query": {
+      "op": "cities_by_person_year",
+      "person_name": "小明",
+      "year": "2023"
+    },
+    "raw": "{\"op\": \"cities_by_person_year\", \"person_name\": \"小明\", \"year\": \"2023\"}"
+  },
+  "qwen3-mixed-v1||qwen3-8b||2020年去过成都的是哪些人？": {
+    "query": {
+      "op": "persons_by_city_year",
+      "city_name": "成都",
+      "year": "2020"
+    },
+    "raw": "{\"op\": \"persons_by_city_year\", \"city_name\": \"成都\", \"year\": \"2020\"}"
+  },
+  "qwen3-mixed-v1||qwen3-8b||2020年去过武汉的是哪些人？": {
+    "query": {
+      "op": "persons_by_city_year",
+      "city_name": "武汉",
+      "year": "2020"
+    },
+    "raw": "{\"op\": \"persons_by_city_year\", \"city_name\": \"武汉\", \"year\": \"2020\"}"
+  },
+  "qwen3-mixed-v1||qwen3-8b||小红在2020年去了哪些城市？": {
+    "query": {
+      "op": "cities_by_person_year",
+      "person_name": "小红",
+      "year": "2020"
+    },
+    "raw": "{\"op\": \"cities_by_person_year\", \"person_name\": \"小红\", \"year\": \"2020\"}"
+  },
+  "qwen3-mixed-v1||qwen3-8b||2020年去过北京的是哪些人？": {
+    "query": {
+      "op": "persons_by_city_year",
+      "city_name": "北京",
+      "year": "2020"
+    },
+    "raw": "{\"op\": \"persons_by_city_year\", \"city_name\": \"北京\", \"year\": \"2020\"}"
+  },
+  "qwen3-mixed-v1||qwen3-8b||2021年去过北京的是哪些人？": {
+    "query": {
+      "op": "persons_by_city_year",
+      "city_name": "北京",
+      "year": "2021"
+    },
+    "raw": "{\"op\": \"persons_by_city_year\", \"city_name\": \"北京\", \"year\": \"2021\"}"
+  },
+  "qwen3-mixed-v1||qwen3-8b||按人物链：小王在2020年去成都之后，下一次事件发生在哪一年？": {
+    "query": {
+      "op": "ff_next",
+      "ff_type": "person",
+      "from": {
+        "person": "小王",
+        "year": "2020",
+        "geo": "成都"
+      },
+      "return": "year",
+      "hops": 1
+    },
+    "raw": "{\"op\": \"ff_next\", \"ff_type\": \"person\", \"from\": {\"person\": \"小王\", \"year\": \"2020\", \"geo\": \"成都\"}, \"return\": \"year\", \"hops\": 1}"
+  },
+  "qwen3-mixed-v1||qwen3-8b||按时间链：小红在2021年去深圳之后，下一次去了哪个城市？": {
+    "query": {
+      "op": "ff_next",
+      "ff_type": "time",
+      "from": {
+        "person": "小红",
+        "year": "2021",
+        "geo": "深圳"
+      },
+      "return": "geo",
+      "hops": 1
+    },
+    "raw": "{\"op\": \"ff_next\", \"ff_type\": \"time\", \"from\": {\"person\": \"小红\", \"year\": \"2021\", \"geo\": \"深圳\"}, \"return\": \"geo\", \"hops\": 1}"
+  },
+  "qwen3-mixed-v1||qwen3-8b||按时间链：小李在2021年去北京之后，下一次去了哪个城市？": {
+    "query": {
+      "op": "ff_next",
+      "ff_type": "time",
+      "from": {
+        "person": "小李",
+        "year": "2021",
+        "geo": "北京"
+      },
+      "return": "geo",
+      "hops": 1
+    },
+    "raw": "{\"op\": \"ff_next\", \"ff_type\": \"time\", \"from\": {\"person\": \"小李\", \"year\": \"2021\", \"geo\": \"北京\"}, \"return\": \"geo\", \"hops\": 1}"
+  },
+  "qwen3-mixed-v1||qwen3-8b||小张在2021年去了哪些城市？": {
+    "query": {
+      "op": "cities_by_person_year",
+      "person_name": "小张",
+      "year": "2021"
+    },
+    "raw": "{\"op\": \"cities_by_person_year\", \"person_name\": \"小张\", \"year\": \"2021\"}"
+  },
+  "qwen3-mixed-v1||qwen3-8b||2021年去过上海的是哪些人？": {
+    "query": {
+      "op": "persons_by_city_year",
+      "city_name": "上海",
+      "year": "2021"
+    },
+    "raw": "{\"op\": \"persons_by_city_year\", \"city_name\": \"上海\", \"year\": \"2021\"}"
+  },
+  "qwen3-mixed-v1||qwen3-8b||2023年去过北京的是哪些人？": {
+    "query": {
+      "op": "persons_by_city_year",
+      "city_name": "北京",
+      "year": "2023"
+    },
+    "raw": "{\"op\": \"persons_by_city_year\", \"city_name\": \"北京\", \"year\": \"2023\"}"
+  }
+}
